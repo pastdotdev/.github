@@ -4,7 +4,7 @@
 
 - **#1 on BEAM at 100K, 1M, and 10M tokens**, on complete splits. [Methodology](https://past.dev/benchmarks)
 - **20x cheaper per question** than sending 1M tokens of history
-- **Self-serve:** sign up and start with 30,000 credits, 80,000 with a work email. No card required, and nobody approves the account.
+- **Self-serve:** sign up and start with 150,000 credits, 400,000 with a work email. No card required, and nobody approves the account.
 
 **[Get an API key](https://sso.past.dev/sign-up)** · **[Documentation](https://past.dev/docs)** · **[Quickstart](https://past.dev/docs/memory-api/quickstart)** · **[Benchmarks](https://past.dev/benchmarks)** · **[Pricing](https://past.dev/pricing)**
 
@@ -45,7 +45,7 @@ Overall BEAM accuracy, on complete splits:
 
 | BEAM | 100K | 500K | 1M | 10M |
 |---|---|---|---|---|
-| past.dev | **91.84%** | **89.41%** | **88.82%** | **85.94%** |
+| past.dev | **91.84%** | **89.41%** | **88.82%** | **84.95%** |
 
 LoCoMo on the community-corrected keys: 93.12% overall. Other systems' published figures, the baselines, and how each run was scored are on [past.dev/benchmarks](https://past.dev/benchmarks).
 
