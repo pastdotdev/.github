@@ -45,7 +45,11 @@ Overall BEAM accuracy, on complete splits:
 
 | BEAM | 100K | 500K | 1M | 10M |
 |---|---|---|---|---|
-| past.dev | **91.84%** | **89.41%** | **88.82%** | **84.95%** |
+| past.dev | **92.08%** | **89.63%** | **90.65%** | **85.03%** |
+
+The [public benchmark repository](https://github.com/pastdotdev/benchmarks) includes the scoring
+harness, methodology, and per-question answers and judge verdicts for all 2,000 questions.
+Split summaries: [100K](https://github.com/pastdotdev/benchmarks/blob/main/beam/results/100k/summary.json) · [500K](https://github.com/pastdotdev/benchmarks/blob/main/beam/results/500k/summary.json) · [1M](https://github.com/pastdotdev/benchmarks/blob/main/beam/results/1m/summary.json) · [10M](https://github.com/pastdotdev/benchmarks/blob/main/beam/results/10m/summary.json).
 
 LoCoMo on the community-corrected keys: 93.12% overall. Other systems' published figures, the baselines, and how each run was scored are on [past.dev/benchmarks](https://past.dev/benchmarks).
 
